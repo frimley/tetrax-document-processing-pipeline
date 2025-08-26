@@ -63,7 +63,6 @@ npm install
 
 ```bash
 # From the root repository directory
-cd ..
 docker compose up -d
 
 # Verify services are running
