@@ -43,7 +43,7 @@ describe("Uploads E2E", () => {
 
     // Setup test data
     authToken = "test-token-123";
-    projectId = uuidv4();
+    projectId = "123e4567-e89b-12d3-a456-426614174001";
   });
 
   afterAll(async () => {
