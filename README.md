@@ -1,4 +1,4 @@
-# TetraxAI File Upload API
+# TetraxAI Document Processing Pipeline
 
 A robust NestJS-based file upload API that supports both multipart (resumable) and single file uploads with SHA-256 deduplication, S3 storage, and comprehensive health monitoring.
 
@@ -63,6 +63,8 @@ npm install
 
 ```bash
 # From the root repository directory
+cd ..
+
 docker compose up -d
 
 # Verify services are running
